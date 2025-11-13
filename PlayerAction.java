@@ -8,6 +8,7 @@ public class PlayerAction extends EventObject{
     }
 
     public boolean isPressed() {
+        //pressed = 
         return pressed;
     }
 }
