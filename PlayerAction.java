@@ -1,4 +1,5 @@
-import java.awt.KeyEvent;
+import java.awt.*;
+import java.awt.event.*;
 
 public class PlayerAction extends EventObject{
     private boolean pressed;
@@ -7,8 +8,8 @@ public class PlayerAction extends EventObject{
         this.pressed = pressed;
     }
 
-    public boolean isPressed() {
-        //pressed = 
+    public boolean isPressed(key letter) {
+        pressed = letter.keyPressed();
         return pressed;
     }
 }
