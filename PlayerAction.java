@@ -1,15 +1,18 @@
-import java.awt.*;
-import java.awt.event.*;
+// import java.awt.*;
+// import java.awt.event.*;
 
-public class PlayerAction extends EventObject{
-    private boolean pressed;
+// public class PlayerAction extends EventObject{
+//     private boolean pressed;
 
-    public PlayerAction(boolean pressed) {
-        this.pressed = pressed;
-    }
+//     public PlayerAction(boolean pressed) {
+//         this.pressed = pressed;
+//     }
 
-    public boolean isPressed(key letter) {
-        pressed = letter.keyPressed();
-        return pressed;
-    }
-}
+//     public boolean isPressed(key letter) {
+//         pressed = letter.keyPressed();
+//         return pressed;
+//     }
+// }
+
+setOnKeyPressed(EventHandler <KeyEvent> handler)
+setOnKeyReleased(EventHandler <KeyEvent> handler)
